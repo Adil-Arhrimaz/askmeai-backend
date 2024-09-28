@@ -1,0 +1,66 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.vs/
+.vscode/
+.idea/
+
+# Ignore NuGet packages and other dependencies
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.csproj.user
+
+# Ignore Rider and JetBrains specific files
+.idea/
+*.DotSettings.user
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings
+
+# Ignore Visual Studio Code workspace files
+.vscode/
+
+# Ignore testing files
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore config files that should not be shared (specific to environment)
+appsettings.Development.json
+appsettings.local.json
+
+# Ignore local database files
+*.mdf
+*.ldf
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Ignore other IDE-specific files
+*.sublime-project
+*.sublime-workspace
