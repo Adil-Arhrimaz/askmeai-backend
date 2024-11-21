@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using AskMeAI.API.Entities;
-using AskMeAI.API.Services;
 using AskMeAI.API.DbContexts;
 using AskMeAI.API.Models;
 
+namespace AskMeAI.API.Services;
 public class ConversationService : IConversationService
 {
     private readonly AskMeAiDbContext _context;

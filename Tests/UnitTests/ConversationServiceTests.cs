@@ -8,7 +8,6 @@ using AskMeAI.API.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using Moq.EntityFrameworkCore;
-using Xunit;
 using FluentAssertions;
 using AskMeAI.API.Models;
 
